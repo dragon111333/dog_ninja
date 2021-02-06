@@ -118,7 +118,7 @@ public class Game extends JPanel implements KeyListener{
 	
 	@Override
 	public void keyPressed(KeyEvent e) {
-		if(System.currentTimeMillis() - lastPress > 500) {
+		if(System.currentTimeMillis() - lastPress > 600) {
 			if(e.getKeyCode()==32||e.getKeyCode()==38) {
 					dog.jump(this);
 					lastPress = System.currentTimeMillis();
