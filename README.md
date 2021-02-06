@@ -1,3 +1,3 @@
 # dog_ninja
-เกมส์ง่ายๆ by java
-method main อยู่ที่ src/display/game.java
+### สร้างเกมง่ายด้วยภาษาJAVA
+`method main อยู่ที่ src/display/Game.java`
