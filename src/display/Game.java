@@ -17,14 +17,14 @@ public class Game extends JPanel implements KeyListener{
 
 	private static final long serialVersionUID = 1L;
 	
-	private static int speed = 30,dogSize = 60 ,waveHeight = 50;
+	private static int speed = 50,dogSize = 60 ,waveHeight = 50;
 	private static int base=400,xStart = 1000;
 	private long point = 0,lastPress=0;
 	
 	private Dog dog = new Dog(100,base-50);
 	static Display display;
 //	------------------Wave SIze ----------------------------
-	private Wave[] waveSet = makeWave(5);
+	private Wave[] waveSet = makeWave(4);
 //--------------------Cloud--------------------------------
 	private Environment[] envSet = makeEnv(2,Environment.CLOUD);
 	private Environment building = new Environment(xStart-100,base-150,this,Environment.BUILDING,4);
