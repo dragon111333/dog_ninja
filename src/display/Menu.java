@@ -25,7 +25,7 @@ public class Menu extends JPanel {
 					this.setFocusable(true);
 					this.setLayout(null);
 					
-					EleLabel status = new EleLabel("You DIe!",40,400,100,200,100);
+					EleLabel status = new EleLabel("You Died!",40,400,100,200,100);
 					status.setForeground(Color.white);
 					
 					EleLabel showPoint = new EleLabel("Total : "+this.point,30,400,200,200,100);
