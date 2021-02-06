@@ -3,4 +3,4 @@
 `method main อยู่ที่ src/display/Game.java`
 
 
-_ติดต่อdragon123789555@gmail.com_
+_ติดต่อ : dragon123789555@gmail.com_
