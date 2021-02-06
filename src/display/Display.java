@@ -36,7 +36,7 @@ public class Display extends JFrame implements ActionListener{
 	
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		if(e.getActionCommand().equals("เริ่มใหม่")) {
+		if(e.getActionCommand().equals("restart")) {
 			removeContent();
 			Game game = new Game();
 			this.getContentPane().add(game);

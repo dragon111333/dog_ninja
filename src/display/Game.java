@@ -45,7 +45,7 @@ public class Game extends JPanel implements KeyListener{
 				//---POINT----
 				g2.setFont(Element.getFont(30));
 				g2.setColor(Color.white);
-				g2.drawString("คะแนน : "+point,750,40);
+				g2.drawString("Point : "+point,750,40);
 				//--- dog --
 				g2.setColor(Color.RED);
 				drawDogHealth(g2);

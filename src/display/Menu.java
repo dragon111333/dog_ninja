@@ -1,10 +1,8 @@
 package display;
 
 import java.awt.Color;
-import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 import Element.EleButton;
@@ -27,13 +25,13 @@ public class Menu extends JPanel {
 					this.setFocusable(true);
 					this.setLayout(null);
 					
-					EleLabel status = new EleLabel("คุณตาย!",40,400,100,200,100);
+					EleLabel status = new EleLabel("You DIe!",40,400,100,200,100);
 					status.setForeground(Color.white);
 					
-					EleLabel showPoint = new EleLabel("คะแนน : "+this.point,30,380,200,200,100);
+					EleLabel showPoint = new EleLabel("Total : "+this.point,30,400,200,200,100);
 					showPoint.setForeground(Color.white);
 										
-					EleButton restart = new EleButton("เริ่มใหม่",15,380,300,200,50);
+					EleButton restart = new EleButton("restart",15,380,300,200,50);
 					restart.addActionListener(main);		
 					
 					this.add(showPoint);
