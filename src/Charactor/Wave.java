@@ -34,10 +34,6 @@ public class Wave {
 				 this.timeMove.start();
 		}
 		
-		public void stop() {
-			this.timeMove.stop();
-		}
-		
 		public BufferedImage getImage() {
 			BufferedImage image = null;
 			try {
